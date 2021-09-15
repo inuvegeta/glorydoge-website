@@ -48,14 +48,14 @@ export default function Home() {
             <CustomLink href="https://twitter.com/GloryDogeCoin" target="_blank">
               Follow us on Twitter
             </CustomLink>
-            <CustomLink href="#" target="_blank" disable>
-              Contract (soon)
+            <CustomLink href="https://github.com/GloryDoge" target="_blank">
+              GitHub
+            </CustomLink>
+            <CustomLink href="https://docs.glorydogecoin.com" target="_blank">
+              White Paper
             </CustomLink>
             <CustomLink href="#" target="_blank" disable>
-              Audit (soon)
-            </CustomLink>
-            <CustomLink href="#" target="_blank" disable>
-              Contribute to the private sale (soon)
+              Join the pre-sale contest (soon)
             </CustomLink>
           </LinksContainer>
 
