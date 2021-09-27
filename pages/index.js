@@ -54,8 +54,14 @@ export default function Home() {
             <CustomLink href="https://docs.glorydogecoin.com" target="_blank">
               White Paper
             </CustomLink>
+            <CustomLink
+              href="https://bscscan.com/token/0xcc5667333f5e997ac9f0c26d41b7dda65b2b675a"
+              target="_blank"
+            >
+              Contract
+            </CustomLink>
             <CustomLink href="#" target="_blank" disable>
-              Join the pre-sale contest (soon)
+              Pre-sale whitelist (soon)
             </CustomLink>
           </LinksContainer>
 
@@ -242,15 +248,12 @@ const CustomLink = styled.a`
   border-radius: 4px;
   border: 1px solid ${rgba('#fff', 0.4)};
   transition: all 0.2s ease;
+  text-align: center;
 
   &:hover {
     background: #fff;
     border: 1px solid #fff;
     color: #222;
-  }
-
-  &:last-of-type {
-    grid-column: span 2;
   }
 
   ${props =>
