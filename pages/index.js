@@ -60,8 +60,8 @@ export default function Home() {
             >
               Contract
             </CustomLink>
-            <CustomLink href="#" target="_blank" disable>
-              Pre-sale whitelist (soon)
+            <CustomLink href="https://sweepwidget.com/view/34444-qwdes2om" target="_blank">
+              Pre-sale whitelist
             </CustomLink>
           </LinksContainer>
 
